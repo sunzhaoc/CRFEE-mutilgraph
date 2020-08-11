@@ -1,7 +1,8 @@
 close all;clear all;clc;
 addpath('FUNCTION')
 for graph_num = 0:1:14
-    if graph_num == 0||graph_num == 2||graph_num == 4||graph_num == 9||graph_num == 14
+    %     if graph_num == 9||graph_num == 14
+    if graph_num == 14
         for choosedata = 1:12
             switch choosedata
                 case 1
